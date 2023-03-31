@@ -33,7 +33,8 @@
         SELECT title, COUNT(book_to_author.author_id), GROUP_CONCAT(full_name SEPARATOR ',')from book_to_author
         join book on book.id = book_to_author.book_idjoin author on book_to_author.author_id = author.id
         GROUP BY book.idORDER BY COUNT(book_to_author.author_id);
-        
+
+     
         
         чем особенность использования JOIN
         
