@@ -17,6 +17,14 @@
         которые создаются под каждого пользователя с определенным набором таблиц.
         
 Задание реализовал:)
+Для работы с проектом надо в терминале написать:
+ - cp .env.example .env
+ - в env настроить данные своей бд
+ - php artisan key:generate
+ - php artisan migrate
+ - php artisan migrate:rollback(проверить что все правильно работает)
+ - php artisan migrate
+ - php artisan serve
 
 Задача 2:
 
